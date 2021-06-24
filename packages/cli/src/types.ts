@@ -82,6 +82,8 @@ export const DefaultTypeMapping = Object.freeze({
 
   // Bytes
   bytea: Bytes,
+
+  geography: String
 });
 
 export type BuiltinTypes = keyof typeof DefaultTypeMapping;
